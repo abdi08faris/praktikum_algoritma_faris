@@ -1,0 +1,12 @@
+PROGRAM Hitung_luas_lingkaran
+{program untuk menghitung luas area tama berbentuk lingkaran}
+
+KAMUS DATA:
+cons PI : real = 3.14
+r       : real
+luas    : real
+
+ALGORITMA:
+read(r)
+luas <- PI * r * read
+write(luas)
