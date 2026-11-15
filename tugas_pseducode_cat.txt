@@ -1,24 +1,25 @@
-
-JUDUL: ESTIMASI BIAYA PENGECATAN TEMBOK
+JUDUL: Estimasi Biaya Pengecatan Tembok
 
 KAMUS:
- panjang : real
+panjang : real
  tinggi : real
-hargaCat : real
-luas : real
-totalBiaya : real
+  hargaCat : real
+  luas : real
+ totalBiaya : real
 
-ALGORITMA:
+  ALGORITMA:
    MULAI
 
 INPUT panjang
- INPUT tinggi
- INPUT harga 
-    luas <- panjang * tinggi
+  INPUT tinggi
+  INPUT hargaCat
 
-    totalBiaya <- luas * hargaCat
+ luas <- panjang * tinggi
 
-     OUTPUT "Luas Tembok: ", luas, " m2"
-   OUTPUT "Total Biaya: Rp ", totalBiaya
-     SELESAI
+ totalBiaya <- luas * hargaCat
+
+OUTPUT "Luas Tembok: ", luas, " m2"
+ OUTPUT "Total Biaya: Rp ", totalBiaya
+
+ SELESAI
                                                         
