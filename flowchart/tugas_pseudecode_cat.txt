@@ -1,0 +1,14 @@
+#analisis logika pengecetan tembok rumah
+oleh: faris
+## 1.input (data apa saja yang perlu dimasukan oleh pengguan/sistem?)
+* panjang tembok (dalam satuan meter)
+* tinggi tembok (dalam satuan meter)
+* harga cat per meter persegi (dalam satuan rupiah).
+## 2.proses (bagaimana langkah-langkah sistem menghitungya?)
+langkah 1:menerima masukan data panjang tembok,tinggi tembok,dan harga cat.
+langkah 2:menghitung luas tembok meggunakan rumus:luas_tembok = panjang_tembok * tinggi_tembok.
+langkah 3:menghitung total biaya pengecetan dengan mengalikan luas tembok dengan harga cat.
+langkah 4:menyiapkan hasil akhir berupa luas tembok dan total biaya yang harus di keluarkan.
+## 3. output (apa yang di tampilkan ke layar pelanggan)
+*luas tembok (dalam meter persegi)
+*total biaya pengecetan yang harus dibayarkan.
