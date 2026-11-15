@@ -1,30 +1,20 @@
-JUDUL: ESTIMASI BIAYA PENGECATAN TEMBOK RUMAH
+PROGRAM Hitung_Luas_dan_Biaya_Cat_Tembok_Persegi_Panjang
+{Program untuk menghitung luas dan biaya pengecatan tembok berbentuk persegi panjang}
 
-KAMUS:
-    panjang : real
-        tinggi : real
-            hargaCat : real
-                luas : real
-                    totalBiaya : real
+KAMUS DATA:
+ panjang : real
+tinggi : real
+hargacat : real
+luas : real
+totalbiaya : real
 
-                    ALGORITMA:
-                        MULAI
-
-                            TULIS "Masukkan panjang tembok (meter): "
-                                BACA panjang
-
-                                    TULIS "Masukkan tinggi tembok (meter): "
-                                        BACA tinggi
-
-                                            TULIS "Masukkan harga cat per meter persegi: "
-                                                BACA hargaCat
-
-                                                    luas <- panjang * tinggi
-
-                                                        totalBiaya <- luas * hargaCat
-
-                                                            TULIS "Luas Tembok: ", luas, " m2"
-                                                                TULIS "Total Biaya: Rp ", totalBiaya
-
-                                                                    SELESAI
+     ALGORITMA:
+      read (panjang)
+       read (tinggi)
+        read (hargaCat)
+         proses luas <-panjang * tinggi
+          proses totalbiaya <- luas * hargacat
+           write (Luas Tembok: ", luas, " m2")
+            write (Total Biaya Pengecatan: Rp ", totalBiaya)
+selesai
                                                         
