@@ -1,0 +1,20 @@
+PROGRAM PENGGAJIAN_KARYAWAN
+
+KAMUS:
+nama : STRING
+gaji : integer
+tunjangan : float
+pajak :float
+
+ALGORITMA:
+read(nama)
+read(gaji)
+read(tunjangan)
+read(pajak)
+masukan nama
+gaji + tunjangan 20% - pajak 10% = total gaji
+
+write(nama)
+write(gaji)
+write(tunjangan)
+write(pajak)
