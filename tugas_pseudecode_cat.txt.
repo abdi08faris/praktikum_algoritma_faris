@@ -17,4 +17,3 @@ totalbiaya : real
            write (Luas Tembok: ", luas, " m2")
             write (Total Biaya Pengecatan: Rp ", totalBiaya)
 selesai
-                                                        
