@@ -3,8 +3,8 @@ PROGRAM PENGGAJIAN_KARYAWAN
 KAMUS:
 nama : STRING
 gaji : integer
-tunjangan : float
-pajak :float
+tunjangan : real
+pajak :real
 
 ALGORITMA:
 read(nama)
