@@ -1,0 +1,20 @@
+PROGRAM KALKULATOR_SPLIT_BILL_RESTORAN
+KAMUS:
+nama_perwakilan_meja :STRING
+total_harga_makan :real
+jumlah_orang :integer
+pajak_restoran :real
+biaya_layanan :real
+total_bayar_akhir :real
+tagihan_per_orang :real
+ALGORIMA:
+read(nama_perwakilan_meja)
+read(total_harga_makanan)
+read(jumlah_orang)
+pajak_restoran = total_harga_makanan*0.11%
+biaya_layanan = total_harga_makanan*0.05
+total_bayar_akhir = total_harga_makanan + pajak_restoran + biaya_layanan
+tagihan_per_orang= total_harga_akhir / jumlah_orang
+WRITE(nama_peprwakilan_meja)
+WRITE(total_bayar_akhir)
+WRITE(tagihan_per_orang)
